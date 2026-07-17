@@ -1029,14 +1029,24 @@
 "notifications_under_video" = "вашим $3видео$4";
 "notifications_post" = "$1 написал(-ла) $2запись$3 на вашей стене: $4";
 "notifications_appoint" = "$1 назначил вас руководителем сообщества $2";
-"nt_liked_yours" = "понравился ваш";
+"nt_liked_yours" = "оценил(а) ваш";
+"nt_liked_yours_m" = "оценил ваш";
+"nt_liked_yours_f" = "оценила ваш";
 "nt_shared_yours" = "поделился(-ась) вашим";
+"nt_shared_yours_m" = "поделился вашим";
+"nt_shared_yours_f" = "поделилась вашим";
 "nt_commented_yours" = "оставил(а) комментарий под";
+"nt_commented_yours_m" = "оставил комментарий под";
+"nt_commented_yours_f" = "оставила комментарий под";
 "nt_written_on_your_wall" = "написал(а) на вашей стене";
+"nt_written_on_your_wall_m" = "написал на вашей стене";
+"nt_written_on_your_wall_f" = "написала на вашей стене";
 "nt_accepted_your_post" = "опубликовало вашу предложенную";
 "nt_in_club" = "В сообществе";
 "nt_new_suggested_posts" = "новые записи в предложке";
 "nt_made_you_admin" = "назначил(а) вас руководителем сообщества";
+"nt_made_you_admin_m" = "назначил вас руководителем сообщества";
+"nt_made_you_admin_f" = "назначила вас руководителем сообщества";
 "nt_from" = "от";
 "nt_yours_adjective" = "вашим";
 "nt_yours_feminitive_adjective" = "вашей";
@@ -1055,7 +1065,9 @@
 "nt_mention_in_note" = "в обсуждении заметки";
 "nt_mention_in_topic" = "в обсуждении";
 "nt_post_small" = "запись";
-"nt_sent_gift" = "отправил вам подарок";
+"nt_sent_gift" = "отправил(а) вам подарок";
+"nt_sent_gift_m" = "отправил вам подарок";
+"nt_sent_gift_f" = "отправила вам подарок";
 "notif_3_14_18" = "Вам написали на стене";
 "notif_0_14_18" = "Вашу запись оценили";
 "notif_0_6_18" = "Ваш комментарий оценили";
@@ -1107,7 +1119,9 @@
 "transfer_poins" = "Передача голосов";
 "transfer_poins_button" = "Передать голоса";
 "also_you_can_transfer_points" = "Также вы можете <a href=\"javascript:showCoinsTransferDialog($1, '$2')\">передать голоса</a> другому человеку.";
-"transferred_to_you" = "передал вам";
+"transferred_to_you" = "передал(а) вам";
+"transferred_to_you_m" = "передал вам";
+"transferred_to_you_f" = "передала вам";
 "transfer_trough_ton" = "Пополнить с помощью TON";
 "transfer_ton_contents" = "Вы можете пополнить ваш баланс с помощью криптовалюты TON. Достаточно отсканировать QR-code приложением Tonkeeper, или вручную отправить TON по реквизитам. В течение нескольких минут вам придут определенное количество голосов.";
 "transfer_ton_address" = "<b>Адрес кошелька:</b> $1<br/><b>Содержание сообщения:</b> $2";
@@ -1132,7 +1146,9 @@
 "failed_to_increase_rating" = "Не удалось повысить рейтинг";
 "rating_increase_successful" = "Вы успешно повысыли рейтинг <b><a href=\"$1\">$2</a></b> на <b>$3%</b>.";
 "negative_rating_value" = "Мы не можем украсть рейтинг у другого человека, извините.";
-"increased_your_rating_by" = "повысил ваш рейтинг на";
+"increased_your_rating_by" = "повысил(а) ваш рейтинг на";
+"increased_your_rating_by_m" = "повысил ваш рейтинг на";
+"increased_your_rating_by_f" = "повысила ваш рейтинг на";
 
 /* Gifts */
 

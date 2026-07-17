@@ -1075,13 +1075,23 @@
 "notifications_appoint" = "$1 appointed you as community manager of $2";
 
 "nt_liked_yours" = "liked your";
+"nt_liked_yours_m" = "liked your";
+"nt_liked_yours_f" = "liked your";
 "nt_shared_yours" = "shared your";
+"nt_shared_yours_m" = "shared your";
+"nt_shared_yours_f" = "shared your";
 "nt_commented_yours" = "commented";
+"nt_commented_yours_m" = "commented";
+"nt_commented_yours_f" = "commented";
 "nt_written_on_your_wall" = "wrote on your wall";
+"nt_written_on_your_wall_m" = "wrote on your wall";
+"nt_written_on_your_wall_f" = "wrote on your wall";
 "nt_accepted_your_post" = "accepted your suggested";
 "nt_in_club" = "In group";
 "nt_new_suggested_posts" = "new posts in suggestions";
 "nt_made_you_admin" = "appointed you in the community";
+"nt_made_you_admin_m" = "appointed you in the community";
+"nt_made_you_admin_f" = "appointed you in the community";
 
 "nt_from" = "from";
 "nt_yours_adjective" = "your";
@@ -1101,6 +1111,8 @@
 "nt_mention_in_note" = "in discussion of this note";
 "nt_mention_in_topic" = "in the discussion";
 "nt_sent_gift" = "sent you a gift";
+"nt_sent_gift_m" = "sent you a gift";
+"nt_sent_gift_f" = "sent you a gift";
 "notif_3_14_18" = "They wrote on your wall";
 "notif_0_14_18" = "Your post has been liked";
 "notif_0_6_18" = "Someone liked your comment";
@@ -1159,6 +1171,8 @@
 "also_you_can_transfer_points" = "You can also <a href=\"javascript:showCoinsTransferDialog($1, '$2')\">transfer votes</a> to another person.";
 
 "transferred_to_you" = "transferred to you";
+"transferred_to_you_m" = "transferred to you";
+"transferred_to_you_f" = "transferred to you";
 
 "transfer_trough_ton" = "Top up with TON";
 "transfer_ton_contents" = "You can top up your balance with TON cryptocurrency. It's just enough to scan the QR-code with the Tonkeeper app, or manually send TON according to the requisites. Within a few minutes you will receive a certain amount of votes.";
@@ -1192,6 +1206,8 @@
 "negative_rating_value" = "You can't steal ratings from another person.";
 
 "increased_your_rating_by" = "increased your rating by";
+"increased_your_rating_by_m" = "increased your rating by";
+"increased_your_rating_by_f" = "increased your rating by";
 
 /* Gifts */
 

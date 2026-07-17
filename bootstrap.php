@@ -160,6 +160,21 @@ function tr(string $stringId, ...$variables): string
     return $output;
 }
 
+/**
+ * Localize a string with a gender suffix for the acting user.
+ * Uses _f for female, _m otherwise (male/neutral). Falls back to the base key.
+ */
+function tr_gender(?object $user, string $stringId, ...$variables): string
+{
+    $suffix = ($user instanceof \openvk\Web\Models\Entities\User && $user->isFemale()) ? "_f" : "_m";
+    $gendered = tr($stringId . $suffix, ...$variables);
+    if ($gendered === ("@" . $stringId . $suffix)) {
+        return tr($stringId, ...$variables);
+    }
+
+    return $gendered;
+}
+
 function getDefaultLanguage(): string
 {
     return OPENVK_ROOT_CONF["openvk"]["preferences"]["defaultLanguage"] ?? "ru";
